@@ -1,0 +1,67 @@
+
+ @font-face {
+    font-family: myFirstFont;
+    src: url(/assets/fonts/Quicksand-VariableFont_wght.ttf);
+   
+ }
+
+ 
+ td{
+
+    border: 1px solid;
+
+    border-color: rgb(109, 132, 87);
+    padding: 15px;
+    text-align: left;
+   
+  }
+  table {
+    border-collapse: collapse;
+    font-family: myFirstFont;
+    font-size: 18px;
+  
+  }
+  .labels-cl{
+    font-weight: bold;
+    font-size: 22px;
+  }
+  tbody>tr>:nth-child(1){
+    
+    text-align:center;
+   }
+   tbody>tr>:nth-child(2){
+    width: 5vw;
+    text-align:center;
+   }
+   tbody>tr>:nth-child(3)>td>:nth-child(1){
+    width: 25vw;
+    text-align:center;
+   }
+   tbody>tr>:nth-child(3){
+    width: 25vw;
+    text-align:left;
+   }
+   tbody>tr>:nth-child(4){
+    width: 5vw;
+    text-align:center;
+   }
+   tbody>tr>:nth-child(5){
+    width: 3vw;
+    text-align:center;
+   }
+   tbody>tr>:nth-child(6){
+    width: 3vw;
+    text-align:center;
+   }
+   tbody>tr>:nth-child(7){
+    width: 3vw;
+    text-align:center;
+   }
+   tbody>tr>:nth-child(8){
+    width: 10vw;
+    text-align:center;
+   }
+   tbody>tr>:nth-child(9){
+    width: 10vw;
+    text-align:center;
+   }
