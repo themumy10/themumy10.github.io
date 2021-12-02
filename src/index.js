@@ -291,6 +291,7 @@ var alertAllElements = function tableCreate(theArray) {
         }
 
     }
+    //deneme
     body.appendChild(tbl);
 }
 
