@@ -121,7 +121,7 @@ function clearTable() {
 
 var alertAllElements = function tableCreate(theArray) {
   
-    var myWindow = window.open("", "MsgWindow",);
+    var myWindow = window.open();
     myWindow.document.write("<html> <head> <link rel='stylesheet' href='/css/style.css'> </head><body> </body></html> ");
     const body =myWindow.document.body,
         tbl = document.createElement('table');
@@ -272,7 +272,7 @@ var alertAllElements = function tableCreate(theArray) {
             mystring = mystring.replace(',00 TL', '');
             mystring = mystring.replace(',', '.');
             var priceInDouble = parseFloat(mystring);
-            priceInDouble = priceInDouble * baseRate*currencyRate;
+            priceInDouble = (priceInDouble * baseRate)/currencyRate;
             var formattedPrice ="";
             console.log(selectedCurreny);
             if(selectedCurreny=="TRY"){
